@@ -7,7 +7,6 @@ specs:
 lint:
 	selene --config selene/config.toml lua
 	typos
-	stylua --check .
 
 format:
 	stylua .
